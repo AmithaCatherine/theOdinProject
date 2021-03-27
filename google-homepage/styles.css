@@ -3,7 +3,36 @@
   width: 100%;
   margin: auto;
 }
+.navbar {
+  padding-bottom: 100px;
+}
+li {
+  display: inline;
+  float: left;
+}
 
+.waffle {
+  width: 32px;
+  height: 32px;
+}
+
+.leftNav {
+  justify-content: flex-start;
+}
+
+.rightNav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.navContents {
+  margin: 5px;
+}
+.dev {
+  border-radius: 50px;
+  width: 32px;
+  height: 32px;
+}
 .logo {
   margin-top: 250px;
   display: flex;
