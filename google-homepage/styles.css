@@ -6,9 +6,13 @@
 .navbar {
   padding-bottom: 100px;
 }
+
+ul {
+  padding: 0px;
+}
 li {
+  padding: 0;
   display: inline;
-  float: left;
 }
 
 .waffle {
@@ -16,17 +20,15 @@ li {
   height: 32px;
 }
 
-.leftNav {
-  justify-content: flex-start;
-}
-
 .rightNav {
   display: flex;
   justify-content: flex-end;
+  margin-right: 15px;
 }
 
 .navContents {
   margin: 5px;
+  float: left;
 }
 .dev {
   border-radius: 50px;
@@ -34,7 +36,7 @@ li {
   height: 32px;
 }
 .logo {
-  margin-top: 250px;
+  margin-top: 100px;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -65,4 +67,45 @@ li {
   background-color: #fff;
   box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
   border-color: rgba(223, 225, 229, 0);
+}
+
+.footer {
+  padding: 0;
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  color: rgba(0, 0, 0, 0.54);
+  background-color: f2f2f2;
+}
+
+hr {
+  height: 1px;
+  background-color: #dadce0;
+}
+.buttons {
+  display: flex;
+  justify-content: center;
+}
+button {
+  background-color: #f8f9fa;
+  border: 1px solid #f8f9fa;
+  border-radius: 4px;
+  color: #3c4043;
+  font-family: arial, sans-serif;
+  font-size: 14px;
+  margin: 11px 4px;
+  padding: 0 16px;
+  line-height: 27px;
+  height: 36px;
+  min-width: 54px;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+}
+
+buttons:hover {
+  box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+  background-color: #f8f9fa;
+  border: 1px solid #dadce0;
+  color: #202124;
 }
