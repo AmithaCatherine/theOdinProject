@@ -54,7 +54,7 @@ li {
 
 .inputBar {
   width: 600px;
-  max-width: 800px;
+  max-width: 600px;
   background: #fff;
   display: flex;
   border: 1px solid #dfe1e5;
